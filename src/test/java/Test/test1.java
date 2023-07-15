@@ -32,6 +32,25 @@ public class test1 {
       context.start();
   }
 
+  @Test
+  public void day4()
+  {
+	  System.out.println("Hello");
+	  System.out.println("Hello");
+
+	  System.out.println("Hello");
+	  System.out.println("Hello");
+
+  }
   
-  
+  @Test
+  public void day5()
+  {
+	  System.out.println("Everyone");
+	  System.out.println("Everyone");
+	  System.out.println("Everyone");
+
+	  System.out.println("Everyone");
+
+  }
 }
