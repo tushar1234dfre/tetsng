@@ -21,7 +21,7 @@ public class test1 {
   public void day2()
   {
 	  System.out.println("Hii");
-	  
+	  System.out.println("Hello");
  
   }
   
