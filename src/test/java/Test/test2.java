@@ -12,6 +12,7 @@ public class test2 {
  @Test(timeOut=4000)
   public void practice()
   {
+	 System.out.println("Hii Tushar");
 	  System.out.println("Bye");
   }
  
