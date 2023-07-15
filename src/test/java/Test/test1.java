@@ -53,6 +53,7 @@ public class test1 {
 	  System.out.println("Everyone");
 	  System.out.println("Tushar");
 	  System.out.println("Phatangare");
+	  System.out.println("Phatangare");
 
   }
 }
