@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="33" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T09:49:13 IST" name="Loan Department" finished-at="2023-06-23T09:49:13 IST" duration-ms="161">
+    <groups>
+    </groups>
+    <test started-at="2023-06-23T09:49:13 IST" name="Personal Loan" finished-at="2023-06-23T09:49:13 IST" duration-ms="94">
+      <class name="Test.test2">
+        <test-method signature="Handson()[pri:0, instance:Test.test2@1a942c18]" started-at="2023-06-23T09:49:13 IST" name="Handson" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handson -->
+        <test-method signature="practice()[pri:0, instance:Test.test2@1a942c18]" started-at="2023-06-23T09:49:13 IST" name="practice" finished-at="2023-06-23T09:49:13 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practice -->
+        <test-method signature="sample()[pri:0, instance:Test.test2@1a942c18]" started-at="2023-06-23T09:49:13 IST" name="sample" finished-at="2023-06-23T09:49:13 IST" depends-on-methods="Test.test2.practice" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- Test.test2 -->
+      <class name="Test.test1">
+        <test-method signature="day1()[pri:2, instance:Test.test1@4d154ccd]" started-at="2023-06-23T09:49:13 IST" name="day1" finished-at="2023-06-23T09:49:13 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1 -->
+      </class> <!-- Test.test1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2023-06-23T09:49:13 IST" name="Car lone" finished-at="2023-06-23T09:49:13 IST" duration-ms="8">
+      <class name="Test.test3">
+        <test-method signature="login()[pri:0, instance:Test.test3@4d1c005e]" started-at="2023-06-23T09:49:13 IST" name="login" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Test.test3 -->
+      <class name="Test.test4">
+        <test-method signature="Weblogin()[pri:0, instance:Test.test4@8462f31]" started-at="2023-06-23T09:49:13 IST" name="Weblogin" finished-at="2023-06-23T09:49:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Weblogin -->
+        <test-method signature="Websignup()[pri:0, instance:Test.test4@8462f31]" started-at="2023-06-23T09:49:13 IST" name="Websignup" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Websignup -->
+      </class> <!-- Test.test4 -->
+    </test> <!-- Car lone -->
+  </suite> <!-- Loan Department -->
+  <suite started-at="2023-06-23T09:49:13 IST" name="Loan Department (0)" finished-at="2023-06-23T09:49:13 IST" duration-ms="74">
+    <groups>
+      <group name="Smoke">
+        <method signature="test3.signup()[pri:0, instance:Test.test3@1807e3f6]" name="signup" class="Test.test3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-06-23T09:49:13 IST" name="Personal Loan" finished-at="2023-06-23T09:49:13 IST" duration-ms="74">
+      <class name="Test.test2">
+        <test-method signature="Handson()[pri:0, instance:Test.test2@55cb6996]" started-at="2023-06-23T09:49:13 IST" name="Handson" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handson -->
+        <test-method signature="practice()[pri:0, instance:Test.test2@55cb6996]" started-at="2023-06-23T09:49:13 IST" name="practice" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practice -->
+        <test-method signature="sample()[pri:0, instance:Test.test2@55cb6996]" started-at="2023-06-23T09:49:13 IST" name="sample" finished-at="2023-06-23T09:49:13 IST" depends-on-methods="Test.test2.practice" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- Test.test2 -->
+      <class name="Test.test3">
+        <test-method signature="login()[pri:0, instance:Test.test3@1807e3f6]" started-at="2023-06-23T09:49:13 IST" name="login" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="signup()[pri:0, instance:Test.test3@1807e3f6]" started-at="2023-06-23T09:49:13 IST" name="signup" finished-at="2023-06-23T09:49:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- Test.test3 -->
+      <class name="Test.test4">
+        <test-method signature="Mobileandroid()[pri:0, instance:Test.test4@480d3575]" started-at="2023-06-23T09:49:13 IST" name="Mobileandroid" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileandroid -->
+        <test-method signature="Mobileapp()[pri:0, instance:Test.test4@480d3575]" started-at="2023-06-23T09:49:13 IST" name="Mobileapp" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileapp -->
+        <test-method signature="Mobileios()[pri:0, instance:Test.test4@480d3575]" started-at="2023-06-23T09:49:13 IST" name="Mobileios" finished-at="2023-06-23T09:49:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileios -->
+        <test-method signature="Weblogin()[pri:0, instance:Test.test4@480d3575]" started-at="2023-06-23T09:49:13 IST" name="Weblogin" finished-at="2023-06-23T09:49:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Weblogin -->
+        <test-method signature="Websignup()[pri:0, instance:Test.test4@480d3575]" started-at="2023-06-23T09:49:13 IST" name="Websignup" finished-at="2023-06-23T09:49:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Websignup -->
+      </class> <!-- Test.test4 -->
+      <class name="Test.test1">
+        <test-method signature="day1()[pri:2, instance:Test.test1@48e1f6c7]" started-at="2023-06-23T09:49:13 IST" name="day1" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1 -->
+      </class> <!-- Test.test1 -->
+      <class name="Test.data_Provider">
+        <test-method signature="Mobileandroid()[pri:0, instance:Test.data_Provider@4722ef0c]" started-at="2023-06-23T09:49:13 IST" name="Mobileandroid" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileandroid -->
+        <test-method signature="Mobileapp(java.lang.String,java.lang.String)[pri:0, instance:Test.data_Provider@4722ef0c]" started-at="2023-06-23T09:49:13 IST" name="Mobileapp" data-provider="getData" finished-at="2023-06-23T09:49:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileapp -->
+        <test-method signature="Mobileapp(java.lang.String,java.lang.String)[pri:0, instance:Test.data_Provider@4722ef0c]" started-at="2023-06-23T09:49:13 IST" name="Mobileapp" data-provider="getData" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileapp -->
+        <test-method signature="Mobileapp(java.lang.String,java.lang.String)[pri:0, instance:Test.data_Provider@4722ef0c]" started-at="2023-06-23T09:49:13 IST" name="Mobileapp" data-provider="getData" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileapp -->
+        <test-method signature="Mobileios()[pri:0, instance:Test.data_Provider@4722ef0c]" started-at="2023-06-23T09:49:13 IST" name="Mobileios" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileios -->
+        <test-method signature="Weblogin()[pri:0, instance:Test.data_Provider@4722ef0c]" started-at="2023-06-23T09:49:13 IST" name="Weblogin" description="This is a web login test case" finished-at="2023-06-23T09:49:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Weblogin -->
+        <test-method signature="Websignup(java.lang.String,java.lang.String)[pri:0, instance:Test.data_Provider@4722ef0c]" started-at="2023-06-23T09:49:13 IST" name="Websignup" data-provider="getData" finished-at="2023-06-23T09:49:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Websignup -->
+        <test-method signature="Websignup(java.lang.String,java.lang.String)[pri:0, instance:Test.data_Provider@4722ef0c]" started-at="2023-06-23T09:49:13 IST" name="Websignup" data-provider="getData" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Websignup -->
+        <test-method signature="Websignup(java.lang.String,java.lang.String)[pri:0, instance:Test.data_Provider@4722ef0c]" started-at="2023-06-23T09:49:13 IST" name="Websignup" data-provider="getData" finished-at="2023-06-23T09:49:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Websignup -->
+      </class> <!-- Test.data_Provider -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department (0) -->
+</testng-results>
