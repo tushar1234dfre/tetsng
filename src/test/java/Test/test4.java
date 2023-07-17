@@ -34,6 +34,13 @@ public class test4 {
 	  System.out.println("Mobile App");  
   }
   
+  @Test
+  public void WebApp()
+  {
+	  System.out.println("WebApp");  
+  }
+  
+  
   }
 
 
