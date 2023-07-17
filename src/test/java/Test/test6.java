@@ -2,9 +2,9 @@ package Test;
 
 import org.testng.annotations.Test;
 
-public class test5 {
+public class test6 {
 	
-	 @Test
+	@Test
 	  public void Weblogin()
 	  {
 		  System.out.println("webLogin");
@@ -35,8 +35,5 @@ public class test5 {
 	  }
 	  
 	  }
-
-
-
 
 
